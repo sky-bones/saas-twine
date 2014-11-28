@@ -37,26 +37,46 @@ html {
     box-sizing: inherit;
 }
 
+
+#navWrap {
+    height: 30px;
+}
+#nav {
+padding: 5px;
+background: #999;
+}
+#nav ul {
+   margin: 0;
+padding: 0;
+}
+#nav li {
+    float: left;
+    padding: 3px 8px;
+    background-color: #FFF;
+    margin: 0 10px 0 0;
+    color: #F00;
+    list-style-type: none;
+}
+#nav li a {
+ color: #F00;
+text-decoration: none;
+}
+#nav li a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+    float:left;
+    position: fixed;
+        width: 127px;
+    }
+
+/*
 img {
     display: block;
     width: 100%;
 }
 
-.nav {
-    padding: 0;
-    list-style-type: none;
-    text-decoration: none;
-}
-
-.nav ul {
-    list-style-type: none;
-    text-decoration: none;
-}
-
-.nav li {
-    margin: 0;
-    text-decoration: none;
-}
 
 .navigation-total {
     position: fixed;
@@ -75,14 +95,19 @@ img {
 
 }
 
-.logo {
-    width: 10%;
+#menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
 }
 
-/* taken from previous - will be edited */
+
+
+/* taken from previous - will be edited
 a:link,
 a:active {
-    /* It's okay to remove this outline for mouse users, BUT DO NOT EVER IN YR LIFE REMOVIE IT FOR KEYBOARD USERS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Should be above the focus element*/
     outline: none;
 }
 
@@ -118,9 +143,8 @@ a:focus {
 
 .and-here-text {
     position: absolute;
-    left: 0.5em;
-    text-align: center;
     margin: auto;
+    text-align: center;
 }
 
 
@@ -142,3 +166,4 @@ a:focus {
         width: 10%;
     }
 }
+*/
