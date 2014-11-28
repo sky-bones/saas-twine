@@ -27,7 +27,6 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
-
 }
 
 }
@@ -43,69 +42,36 @@ html {
 }
 #nav {
 padding: 5px;
-background: #999;
+position: fixed;
+top: 0px;
+left: 127px;
+width: 100%;
 }
+
 #nav ul {
-   margin: 0;
+margin: 0;
 padding: 0;
 }
 #nav li {
     float: left;
     padding: 3px 8px;
-    background-color: #FFF;
     margin: 0 10px 0 0;
-    color: #F00;
     list-style-type: none;
 }
 #nav li a {
- color: #F00;
 text-decoration: none;
 }
 #nav li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .logo {
     float:left;
     position: fixed;
-        width: 127px;
-    }
-
-/*
-img {
-    display: block;
-    width: 100%;
+    width: 150px;
 }
 
-
-.navigation-total {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    padding: 10px;
-    margin: 0px;
-    width: 100%;
-    background-color: white;
-}
-
-.navigation-total-1 {
-
-  display: block;
-  padding: 0;
-
-}
-
-#menu {
-  position: fixed;
-  right: 0;
-  top: 50%;
-  width: 8em;
-  margin-top: -2.5em;
-}
-
-
-
-/* taken from previous - will be edited
+/* taken from previous - will be edited */
 a:link,
 a:active {
     outline: none;
@@ -135,17 +101,21 @@ a:focus {
 
 
 
-.and-here {
-    overflow: hidden;
-
-
+.banner-image {
+    position: relative;
+        width: 100%;
 }
 
-.and-here-text {
-    position: absolute;
-    margin: auto;
-    text-align: center;
+.banner-text {
+    left: 0;
+    top: 30%; /* I have no idea how to center this across screen sizes. */
+    position:absolute;
+    text-align:center;
+    width: 100%
 }
+
+
+
 
 
 
@@ -166,4 +136,3 @@ a:focus {
         width: 10%;
     }
 }
-*/
