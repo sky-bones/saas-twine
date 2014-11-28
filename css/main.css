@@ -1,0 +1,121 @@
+@-moz-viewport {
+    width: device-width;
+    scale: 1;
+}
+@-ms-viewport {
+    width: device-width;
+    scale: 1;
+}
+@-o-viewport {
+    width: device-width;
+    scale: 1;
+}
+@-webkit-viewport {
+    width: device-width;
+    scale: 1;
+}
+@viewport {
+    width: device-width;
+    scale: 1;
+}
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: normal 100%/1.5 sans-serif;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+
+}
+
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.nav {
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav li {
+    margin: 0;
+    text-decoration: none;
+}
+
+.navigation-total {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+.navigation-total-1 {
+
+  display: block;
+  padding: 0;
+
+}
+
+.logo {
+    width: 10%;
+}
+
+/* taken from previous - will be edited */
+a:link,
+a:active {
+    /* It's okay to remove this outline for mouse users, BUT DO NOT EVER IN YR LIFE REMOVIE IT FOR KEYBOARD USERS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Should be above the focus element*/
+    outline: none;
+}
+
+a:focus {
+    outline: 6px solid #000;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    padding: 0.5em 0.75em;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width: 25em) {
+    .logo {
+        width: 2s0%;
+    }
+}
+
+@media only screen and (min-width: 38em) {
+    .logo {
+        width: 10%;
+    }
+}
