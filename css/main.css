@@ -108,9 +108,24 @@ a:focus {
 }
 
 
+
+
+.and-here {
+    overflow: hidden;
+    background-image: url(../images/place-holder-image.svg);
+    padding: 2rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.and-here-text {
+    text-align: center;
+    margin: auto;
+}
+
 @media only screen and (min-width: 25em) {
     .logo {
-        width: 2s0%;
+        width: 20%;
     }
 }
 
