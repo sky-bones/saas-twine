@@ -112,13 +112,13 @@ a:focus {
 
 .and-here {
     overflow: hidden;
-    background-image: url(../images/place-holder-image.svg);
-    padding: 2rem;
-    background-size: 100%;
-    background-repeat: no-repeat;
+
+
 }
 
 .and-here-text {
+    position: absolute;
+    left: 0.5em;
     text-align: center;
     margin: auto;
 }
