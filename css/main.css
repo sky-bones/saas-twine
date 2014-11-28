@@ -123,6 +123,8 @@ a:focus {
     margin: auto;
 }
 
+
+
 @media only screen and (min-width: 25em) {
     .logo {
         width: 20%;
@@ -130,6 +132,12 @@ a:focus {
 }
 
 @media only screen and (min-width: 38em) {
+    .logo {
+        width: 10%;
+    }
+}
+
+@media only screen and (min-width: 60em) {
     .logo {
         width: 10%;
     }
