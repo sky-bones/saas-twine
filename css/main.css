@@ -99,15 +99,12 @@ a:focus {
 }
 
 
-
-
 .banner-image {
     position: relative;
         width: 100%;
 }
 
 .banner-text {
-    left: 0;
     top: 30%; /* I have no idea how to center this across screen sizes. */
     position:absolute;
     text-align:center;
@@ -116,23 +113,19 @@ a:focus {
 
 
 
-
+.logo {
+        width: 90px;
+    }
 
 
 @media only screen and (min-width: 25em) {
-    .logo {
-        width: 20%;
-    }
+
 }
 
 @media only screen and (min-width: 38em) {
-    .logo {
-        width: 10%;
-    }
+
 }
 
 @media only screen and (min-width: 60em) {
-    .logo {
-        width: 10%;
-    }
+
 }
