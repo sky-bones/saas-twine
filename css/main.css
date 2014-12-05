@@ -36,6 +36,26 @@ html {
     box-sizing: inherit;
 }
 
+@media only screen and (min-width: 60em) {
+    html {
+        font-size: 110%;
+    }
+}
+
+
+@media only screen and (min-width: 90em) {
+    html {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    html {
+        font-size: 130%;
+    }
+
+}
+
 
 #navWrap {
     height: 30px;
@@ -46,6 +66,7 @@ position: fixed;
 top: 0px;
 left: 127px;
 width: 100%;
+z-index: 10000;
 }
 
 #nav ul {
@@ -68,7 +89,8 @@ text-decoration: none;
 .logo {
     float:left;
     position: fixed;
-    width: 150px;
+
+    z-index: 10000;
 }
 
 /* taken from previous - will be edited */
@@ -98,34 +120,75 @@ a:focus {
     text-decoration: none;
 }
 
+.banner {
+    position: relative;
+}
 
 .banner-image {
     position: relative;
-        width: 100%;
+    width: 100%;
 }
 
 .banner-text {
-    top: 30%; /* I have no idea how to center this across screen sizes. */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     position:absolute;
-    text-align:center;
+    text-align:left;
     width: 100%
+
 }
 
+.here {
+    position: relative;
+}
 
+.here-text {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 900;
+
+}
 
 .logo {
         width: 90px;
     }
 
+.twitter {
+    width: 4em;
+
+}
+
+.twitter-words {
+
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 5em) {
+        h2 {
+        visibility: hidden;
+    }
+
+}
 
 @media only screen and (min-width: 25em) {
+    h2 {
+        visibility: visible;
+    }
+
 
 }
 
 @media only screen and (min-width: 38em) {
 
+
 }
 
 @media only screen and (min-width: 60em) {
+        .twitter {
+            width: 3em;
+}
 
 }
