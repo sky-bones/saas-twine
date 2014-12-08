@@ -99,6 +99,7 @@ a:focus {
 
 .banner {
     position: absolute;
+    background-color: #f7b3bf;
 }
 
 
@@ -111,14 +112,26 @@ a:focus {
 
 .billboard {
     overflow: hidden;
-    background-image: url(../images/black-and-white-germany-park-1958.jpg);
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/manzinita.jpg);
     background-color: #a4a9ac;
-    background-repeat: repeat-y;
-    background-size: 100%
+    background-repeat: no-repeat;
+
 }
 
 .here {
     position: relative;
+
+}
+
+.here-image {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/black-and-white-germany-park-1958.jpg);
+    background-repeat: no-repeat;
+
 }
 
 .here-text {
@@ -127,6 +140,7 @@ a:focus {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 900;
+
 
 }
 
