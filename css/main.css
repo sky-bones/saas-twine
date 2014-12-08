@@ -120,29 +120,7 @@ a:focus {
 
 }
 
-.here {
-    position: relative;
 
-}
-
-.here-image {
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-    background-image: url(../images/black-and-white-germany-park-1958.jpg);
-    background-repeat: no-repeat;
-
-}
-
-.here-text {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 900;
-
-
-}
 
 .logo {
         width: 90px;
@@ -157,9 +135,6 @@ a:focus {
 
     text-decoration: none;
 }
-
-
-
 
 
 
@@ -210,4 +185,28 @@ a:focus {
 
 }
 
+/* Previously Used code - Reference
 
+.here {
+    position: relative;
+
+}
+
+.here-image {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.here-text {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 900;
+
+
+}
