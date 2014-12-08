@@ -1,4 +1,4 @@
-@-moz-viewport {
+    @-moz-viewport {
     width: device-width;
     scale: 1;
 }
@@ -29,33 +29,11 @@ html {
     text-size-adjust: 100%;
 }
 
-}
 *,
 *:before,
 *:after {
     box-sizing: inherit;
 }
-
-@media only screen and (min-width: 60em) {
-    html {
-        font-size: 110%;
-    }
-}
-
-
-@media only screen and (min-width: 90em) {
-    html {
-        font-size: 120%;
-    }
-}
-
-@media only screen and (min-width: 120em) {
-    html {
-        font-size: 130%;
-    }
-
-}
-
 
 #navWrap {
     height: 30px;
@@ -89,7 +67,6 @@ text-decoration: none;
 .logo {
     float:left;
     position: fixed;
-
     z-index: 10000;
 }
 
@@ -121,22 +98,23 @@ a:focus {
 }
 
 .banner {
-    position: relative;
+    position: absolute;
 }
 
-.banner-image {
-    position: relative;
-    width: 100%;
-}
 
 .banner-text {
-    top: 50%;
+    top:50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    position:absolute;
-    text-align:left;
-    width: 100%
+    translate: transform (-50%, -50%);
+    z-index: 5;
+}
 
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/black-and-white-germany-park-1958.jpg);
+    background-color: #a4a9ac;
+    background-repeat: repeat-y;
+    background-size: 100%
 }
 
 .here {
@@ -166,15 +144,20 @@ a:focus {
     text-decoration: none;
 }
 
+
+
+
+
+
 @media only screen and (min-width: 5em) {
-        h2 {
+        h3 {
         visibility: hidden;
     }
 
 }
 
 @media only screen and (min-width: 25em) {
-    h2 {
+    h3 {
         visibility: visible;
     }
 
@@ -192,3 +175,25 @@ a:focus {
 }
 
 }
+
+@media only screen and (min-width: 60em) {
+    html {
+        font-size: 110%;
+    }
+}
+
+
+@media only screen and (min-width: 90em) {
+    html {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    html {
+        font-size: 130%;
+    }
+
+}
+
+
