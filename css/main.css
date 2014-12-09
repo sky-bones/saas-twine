@@ -130,6 +130,10 @@ a:focus {
 
 }
 
+.billboard-text {
+    margin:20px 10px 200px;
+}
+
 .split {
     height: 100%;
     width: 100%;
