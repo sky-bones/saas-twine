@@ -53,9 +53,10 @@ img {
 padding: 5px;
 position: fixed;
 top: 0px;
-left: 127px;
+left: 137px;
 width: 100%;
 z-index: 10000;
+background-color: #f7b3bf;
 }
 
 #nav ul {
@@ -78,8 +79,17 @@ text-decoration: none;
 .logo {
     float:left;
     position: fixed;
-    z-index: 10000;
+    z-index: 80000;
+    margin:0;
+    padding: 0;
 }
+
+.nav-stlye {
+    background-color: #f7b3bf;
+    position: absolute;
+
+}
+
 
 /* taken from previous - will be edited */
 a:link,
@@ -108,18 +118,10 @@ a:focus {
     text-decoration: none;
 }
 
-.baby {
-    position: absolute;
-    background-color: #f7b3bf;
-}
 
 
-.banner-text {
-    top:50%;
-    left: 50%;
-    translate: transform (-50%, -50%);
-    z-index: 5;
-}
+
+
 
 .billboard {
     overflow: hidden;
@@ -134,11 +136,10 @@ a:focus {
     margin:20px 10px 200px;
 }
 
-.split {
-    height: 100%;
-    width: 100%;
-    visibility: hidden;
-    float: left;
+.how-colour {
+    color: white;
+    background-color: #ccb6db;
+    text-align: center;
 }
 
 
@@ -158,20 +159,15 @@ a:focus {
 
 
 @media only screen and (min-width: 5em) {
-        h3 {
-        visibility: hidden;
-    }
-    .split {
+
+    .hide {
         visibility: hidden;
     }
 }
 
 @media only screen and (min-width: 25em) {
-    h3 {
-        visibility: visible;
-    }
 
-   .split {
+   .hide {
         visibility: visible;
     }
 
@@ -233,4 +229,11 @@ a:focus {
     z-index: 900;
 
 
+}
+
+.banner-text {
+    top:50%;
+    left: 50%;
+    translate: transform (-50%, -50%);
+    z-index: 5;
 }
