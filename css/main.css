@@ -35,9 +35,20 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
 #navWrap {
     height: 30px;
 }
+
 #nav {
 padding: 5px;
 position: fixed;
@@ -77,7 +88,7 @@ a:active {
 }
 
 a:focus {
-    outline: 6px solid #000;
+    outline: 3px solid #000;
 }
 
 .skip-links {
@@ -97,7 +108,7 @@ a:focus {
     text-decoration: none;
 }
 
-.banner {
+.baby {
     position: absolute;
     background-color: #f7b3bf;
 }
@@ -112,14 +123,19 @@ a:focus {
 
 .billboard {
     overflow: hidden;
-    height: 100%;
-    width: 100%;
     background-image: url(../images/manzinita.jpg);
     background-color: #a4a9ac;
     background-repeat: no-repeat;
+    height:100%;
 
 }
 
+.split {
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    float: left;
+}
 
 
 .logo {
@@ -132,7 +148,6 @@ a:focus {
 }
 
 .twitter-words {
-
     text-decoration: none;
 }
 
@@ -142,7 +157,9 @@ a:focus {
         h3 {
         visibility: hidden;
     }
-
+    .split {
+        visibility: hidden;
+    }
 }
 
 @media only screen and (min-width: 25em) {
@@ -150,6 +167,9 @@ a:focus {
         visibility: visible;
     }
 
+   .split {
+        visibility: visible;
+    }
 
 }
 
