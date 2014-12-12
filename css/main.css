@@ -160,10 +160,10 @@ a:focus {
 
 .billboard {
     overflow: hidden;
-    background-image: url(../images/manzinita.jpg);
+    background-image: url(../images/driftwood-banner.jpg);
     background-color: #a4a9ac;
     background-repeat: no-repeat;
-    height:100%;
+    height: 100%;
 
 }
 
@@ -214,6 +214,14 @@ a:focus {
 
 .price-html {
     background-color: black;
+}
+
+.title-pricing {
+    color: white;
+}
+
+.text-pricing {
+    color: #f7b3bf;
 }
 
 @media only screen and (min-width: 25em) {
