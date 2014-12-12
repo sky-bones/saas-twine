@@ -45,7 +45,25 @@ img {
     width: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+    html {
+        font-size: 110%;
+    }
+}
 
+
+@media only screen and (min-width: 90em) {
+    html {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    html {
+        font-size: 130%;
+    }
+
+}
 
 #navWrap {
 height: 30px;
@@ -223,57 +241,4 @@ a:focus {
             width: 3em;
 }
 
-}
-
-@media only screen and (min-width: 60em) {
-    html {
-        font-size: 110%;
-    }
-}
-
-
-@media only screen and (min-width: 90em) {
-    html {
-        font-size: 120%;
-    }
-}
-
-@media only screen and (min-width: 120em) {
-    html {
-        font-size: 130%;
-    }
-
-}
-
-/* Previously Used code - Reference
-
-.here {
-    position: relative;
-
-}
-
-.here-image {
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-
-}
-
-.here-text {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    z-index: 900;
-
-
-}
-
-.banner-text {
-    top:50%;
-    left: 50%;
-    translate: transform (-50%, -50%);
-    z-index: 5;
 }
