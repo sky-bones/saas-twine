@@ -157,6 +157,10 @@ a:focus {
     text-decoration: none;
 }
 
+.skip-links a:focus {
+    top: 0;
+}
+
 
 .billboard {
     overflow: hidden;
