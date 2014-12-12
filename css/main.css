@@ -219,7 +219,7 @@ a:focus {
 }
 
 .light-purple {
-    background-color: #ccb6db
+    background-color: #ccb6db;
 }
 
 .pink {
@@ -295,6 +295,24 @@ button {
 
 .footer {
     background-color: black;
+}
+
+.thankyou-html {
+    background-color: black;
+}
+
+.thankyou-textpage {
+    margin:200px 100px 200px;
+    font-size: 6em;
+    color: #f7b3bf;
+}
+
+.explore {
+    font-size: 3em;
+    margin:100px 100px 200px;
+    color: #ccb6db;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 25em) {
