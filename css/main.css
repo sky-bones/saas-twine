@@ -69,14 +69,14 @@ img {
 height: 30px;
 }
 
-#nav {
+.nav {
 padding: 5px;
 position: fixed;
 top: 0px;
 left: 0px;
 width: 100%;
 z-index: 10000;
-background-color: #f7b3bf;
+background-color: black;
 }
 
 #nav ul {
@@ -90,7 +90,6 @@ text-decoration: none;
 float: left;
 padding: 3px 8px;
 margin: 0 10px 0 0;
-color: black;
 list-style-type: none;
 }
 
@@ -121,7 +120,7 @@ text-decoration: none;
 
 .logo {
 z-index: 80000;
-margin:0;
+margin: 10px;
 padding: 0;
 }
 
@@ -169,7 +168,7 @@ a:focus {
 }
 
 .billboard-text {
-    margin:20px 10px 200px;
+    margin:50px 10px 200px;
 }
 
 .how-colour {
