@@ -45,6 +45,8 @@ img {
     width: 100%;
 }
 
+
+
 #navWrap {
 height: 30px;
 }
@@ -62,21 +64,41 @@ background-color: #f7b3bf;
 #nav ul {
 margin: 0;
 padding: 0;
+list-style-type: none;
+text-decoration: none;
 }
 
 #nav li {
 float: left;
 padding: 3px 8px;
 margin: 0 10px 0 0;
+color: black;
 list-style-type: none;
 }
 
 #nav li a {
 text-decoration: none;
+
 }
 
 #nav li a:hover {
 text-decoration: none;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+    display: block;
+    color: #9e79b6;
+    text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+    background-color: #9e79b6;
+    color: #fff;
+    text-decoration: none;
 }
 
 .logo {
@@ -119,10 +141,6 @@ a:focus {
 }
 
 
-
-
-
-
 .billboard {
     overflow: hidden;
     background-image: url(../images/manzinita.jpg);
@@ -142,7 +160,6 @@ a:focus {
     text-align: center;
 }
 
-
 .logo {
         width: 90px;
     }
@@ -156,24 +173,47 @@ a:focus {
     text-decoration: none;
 }
 
+.lets-go {
+    color: ;
+    list-style-type: none;
+    text-decoration: none;
 
+}
+.light-gray {
+    background-color: #ececec;
+}
 
-@media only screen and (min-width: 5em) {
+.dark-purple {
+    background-color: #9e79b6;
+}
 
-    .hide {
-        visibility: hidden;
-    }
+.light-purple {
+    background-color: #ccb6db
+}
+
+.pink {
+    background-color: #f7b3bf;
+}
+
+.price-html {
+    background-color: black;
 }
 
 @media only screen and (min-width: 25em) {
-
-   .hide {
-        visibility: visible;
-    }
+        #nav {
+            text-align: center;
+            }
+        #nav li {
+            display: inline-block;
+            }
 
 }
 
 @media only screen and (min-width: 38em) {
+
+        #nav {
+            float: left;
+        }
 
 
 }
